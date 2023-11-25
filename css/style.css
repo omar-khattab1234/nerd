@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f7f5f2;
+}
+
+.nav{
+    background-color: black;
+    width: 100%;
+    font-size: 0px; 
+    padding: 10px 0px;
+}
+
+.nav a{
+    color: #fff;
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    font-size: 16px; 
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background: #616161;
+}
+
+/* main{} */ 
+.main{
+    background-image: url("../imges/coffeehouse.89fdedaf27ae9524c1d5.jpg");
+    /* height: 500px; */
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    /* padding-top:  200px; */
+    padding: 150px 0px;
+    box-sizing: border-box;
+}
+
+.main h1{
+    color: #fff;
+    font-size: 50px;
+    
+}
+
+.main h1 span{
+    display: block; 
+    margin-bottom: 20px;
+
+}
+
+/* section */
+
+.section{
+    width: 600px;
+    margin: auto;
+    
+}
+
+.section .title{
+    padding: 3px 10px;
+   width: fit-content;
+   background-color: black;
+   color: #fff;
+   margin: 60px auto;
+   text-align: center;
+   font-size: 20px;
+}
+
+.section p{
+    margin-bottom: 20px;
+}
+
+.section img{
+width: 100%;
+margin-bottom: 20px;
+}
+
+/* about */
+
+.about .quote{
+    background-color: #f1f1f1;
+    border-left: solid 4px #cccccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-info{
+    border: solid 1px;
+    margin-bottom: 20px;
+
+}
+
+.menu-info .btn-con{
+    padding: 5px 8px;
+    font-size: 0px;
+    border: solid 1px #616161;
+}
+
+.menu-info .btn-con button{
+    width: 50%;
+    background-color: transparent;
+    border: none;
+    padding: 4px 0px;
+    cursor: pointer;
+}
+
+.menu-info .btn-con button.active{
+    background-color: #616161;
+    color: #fff;
+}
+
+.info{
+    padding: 20px;
+    padding-bottom: 0%;
+    
+}
+
+.info .classify{
+    color: #333230;
+}
+
+.info .desciption{
+    color: #6e6e6e;
+}
+
+
+.where form{
+    width: 100%;
+}
+
+.where form input{
+    display: block;
+    width: 100% ;
+    margin-bottom: 20px;
+    height: 50px;
+    padding: 10px 20px;
+}
+
+.where form button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+}
+
+.where{
+    padding-bottom: 40px;
+}
+
+.footer{
+    text-align: center;
+    padding: 100px;
+    font-size: large;
+}
+
+.footer a{
+    color: #000;
+}
